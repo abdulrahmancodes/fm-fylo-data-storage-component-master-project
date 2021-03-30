@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .rounded-tr-10xl {
+        border-top-right-radius: 6rem;
+    }
+
+    .p-.5 {
+        padding: 0.125rem
+    }
+
+    .right-35 {
+        left: 8.75rem;
+    }
+}
+
+@layer components {
+    .triangle {
+        width: 0px; 
+        height: 0px; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid white;
+        border-bottom: 10px solid transparent;
+        border-top: 10px solid white;
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "fylo-data-storage-component-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "npx tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
